@@ -1,0 +1,22 @@
+---
+AWSTemplateFormatVersion: 2010-09-09
+
+Transform: AWS::Serverless-2016-10-31
+
+Description: Hello Rust Function
+
+Globals:
+  Function:
+    Timeout: 5
+    MemorySize: 256
+    Handler: does.not.matter
+    Runtime: provided
+    Environment:
+      Variables:
+        APP_NAME: rust-poc
+
+Resources:
+  RustPoc:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: target/rust.zip

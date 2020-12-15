@@ -1,0 +1,28 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package]
+name = "lambda"
+version = "1.0.0"
+edition = "2018"
+
+[[bin]]
+name = "bootstrap"
+path = "src/hello-world/main.rs"
+
+[features]
+
+[dependencies]
+adapters = { path = "../../adapters" }
+core = { path = "../../core" }
+rusoto_core = "0.45.0"
+rusoto_s3 = "0.45.0"
+lambda = { git = "https://github.com/awslabs/aws-lambda-rust-runtime" }
+aws_lambda_events = "0.3.1"
+tokio = { version = "0.2.4", features = ["full"] }
+hyper = "0.13"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1.0.39"
+tracing = "0.1.13"
+tracing-futures = "0.2.3"
+tracing-error = "0.1.2"
+async-trait = "0.1.41"
+fmt = "0.1.0"

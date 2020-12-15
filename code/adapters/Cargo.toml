@@ -1,0 +1,12 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package]
+name = "adapters"
+version = "1.0.0"
+edition = "2018"
+
+[features]
+
+[dependencies]
+core = { path = "../core" }
+rusoto_core = "0.45.0"
+rusoto_s3 = "0.45.0"

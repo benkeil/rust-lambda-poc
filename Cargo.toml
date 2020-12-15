@@ -1,0 +1,11 @@
+[workspace]
+
+members = [
+    "code/adapters",
+    "code/applications/lambda",
+    "code/core",
+]
+
+default-members = [
+    "code/applications/lambda"
+]

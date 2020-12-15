@@ -1,0 +1,10 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[package]
+name = "core"
+version = "1.0.0"
+edition = "2018"
+
+[features]
+
+[dependencies]
+async-trait = "0.1.41"

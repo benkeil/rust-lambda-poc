@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24c51422-2470-49d9-a64f-27cd06fc5eb2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/adapters/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/adapters/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/adapters/src/repositories/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/adapters/src/repositories/s3_storage_repository.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/.cargo/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/bootstrap.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/bitflags-f42ae692736e937b/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/byteorder-c0394047c963d1f3/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/const_fn-e82e42a214393115/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/core-foundation-sys-68947353ca33e2f2/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/crc32fast-0dc55e64627f3950/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/crossbeam-epoch-f60831356c707e24/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/crossbeam-utils-c9b50979370ffd41/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/failure_derive-d7cc79ee36a04ee4/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/generic-array-aafe7f0121e845b1/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/getrandom-45df4ffc6aa2fd63/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/httparse-966d5302aaf6b883/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/indexmap-8b96184b48b881cb/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/libc-ec11876fb8468d1f/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/log-35330d934f81cc0a/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/maybe-uninit-5584cfb5c6934a3f/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/memchr-16fc3b0247c2de4f/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/memoffset-4d63225ed9e299bc/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/miniz_oxide-d736a33c68f75db2/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/native-tls-92ec7ee643574e5f/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/num-integer-48f1275388bce099/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/num-traits-bee894e3f8805169/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/openssl-85760a3f124717e4/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/openssl-sys-acc6a2ce8ce41f4f/build-script-main.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/pin-project-internal-f3ab6b4416545a94/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/proc-macro-hack-bd579cb0a84dc5b9/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/proc-macro-nested-b4407a6827589538/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/proc-macro2-614b4d23652a04d0/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/proc-macro2-962a49c281ad9c93/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/rusoto_core-30855fd62a0c0950/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/ryu-b8d96f571b142b7f/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/serde-42cb9512a898f233/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/serde_derive-ef752dfd53c4e62b/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/serde_json-370769b4d3d190d9/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/standback-292e0cd5d0212251/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/syn-6a76726bd3f92264/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/syn-d22361ee0f3678aa/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/time-28af5deae3858671/build-script-build.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/applications/lambda/target/debug/build/typenum-1f2d8dbbfbb0def8/build-script-main.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/core/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/core/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/core/src/repositories/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/core/src/repositories/storage_repository.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/core/src/use_cases/hello_world_use_case.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/core/src/use_cases/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="uw5e1gr8" />
+  </component>
+  <component name="ProjectId" id="1jcNWFcRnSZXyhPUd4CIcdByqfP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/adapters/src" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code/adapters/src" />
+      <recent name="$PROJECT_DIR$/code/core/src/repositories" />
+      <recent name="$PROJECT_DIR$/code/core/src" />
+      <recent name="$PROJECT_DIR$/code" />
+      <recent name="$PROJECT_DIR$/code/applications/lambda" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code/applications/lambda/src/hello-world" />
+      <recent name="$PROJECT_DIR$/code/applications/lambda" />
+      <recent name="$PROJECT_DIR$/code/applications/lambda/hello-world" />
+      <recent name="$PROJECT_DIR$/code/core" />
+      <recent name="$PROJECT_DIR$/code/adapters" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run hello" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package lambda --example hello" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run hello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24c51422-2470-49d9-a64f-27cd06fc5eb2" name="Default Changelist" comment="" />
+      <created>1604099450795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604099450795</updated>
+      <workItem from="1604099452233" duration="20350000" />
+      <workItem from="1604306225696" duration="3526000" />
+      <workItem from="1604524433376" duration="6923000" />
+      <workItem from="1604863108363" duration="130000" />
+      <workItem from="1604863398083" duration="6441000" />
+      <workItem from="1605782200203" duration="120000" />
+      <workItem from="1605782366649" duration="702000" />
+      <workItem from="1605783215908" duration="1898000" />
+      <workItem from="1606124336145" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2120" y="184" key="#Plugins" timestamp="1605783193703">
+      <screen x="1680" y="23" width="1680" height="1027" />
+    </state>
+    <state x="2120" y="184" key="#Plugins/1680.23.1680.1027/0.23.1680.1027@1680.23.1680.1027" timestamp="1605783193703" />
+    <state x="569" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604134032787">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="569" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1604134032787" />
+    <state x="653" y="259" key="#com.intellij.ide.util.MemberChooser" timestamp="1604864148722">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="653" y="259" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1604864148722" />
+    <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604353007229">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1604353007229" />
+    <state width="1638" height="272" key="GridCell.Tab.0.bottom" timestamp="1604266730011">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="272" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1604266730011" />
+    <state width="1638" height="272" key="GridCell.Tab.0.center" timestamp="1604266730010">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="272" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1604266730010" />
+    <state width="1638" height="272" key="GridCell.Tab.0.left" timestamp="1604266730010">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="272" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1604266730010" />
+    <state width="1638" height="272" key="GridCell.Tab.0.right" timestamp="1604266730011">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="272" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1604266730011" />
+    <state x="2029" y="175" key="SettingsEditor" timestamp="1605782334715">
+      <screen x="1680" y="23" width="1680" height="1027" />
+    </state>
+    <state x="2029" y="175" key="SettingsEditor/1680.23.1680.1027/0.23.1680.1027@1680.23.1680.1027" timestamp="1605782334715" />
+    <state x="2227" y="291" width="586" height="490" key="find.popup" timestamp="1604155227642">
+      <screen x="1680" y="23" width="1680" height="1027" />
+    </state>
+    <state x="2227" y="291" width="586" height="490" key="find.popup/1680.23.1680.1027/0.23.1680.1027@1680.23.1680.1027" timestamp="1604155227642" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1604102643733">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1604102643733" />
+    <state x="925" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1604864559918">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="925" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1604864559918" />
+  </component>
+</project>
